@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #FFE5D4;
+}
+#father-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  min-width: 100vh;
+  margin-top: 50px;
+  border: 3px solid #68A691;
+  background-color: #BFD3C1;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#add {
+  border-radius: 5px;
+  background-color: #694F5D;
+  color: white;
+  margin-left: 4px;
+}
+.elements {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#tareas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.task {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
